@@ -36,7 +36,7 @@
 
 5.  执行如下命令，下载采集插件脚本（以下以GPU插件为例）。
 
-    **wget  **http://obs.myhwclouds.com/telescope/gpu\_collector****
+    **wget  **http://obs.myhwclouds.com/telescope/gpu_collector****
 
     **表 1**  获取插件采集安装包
 
