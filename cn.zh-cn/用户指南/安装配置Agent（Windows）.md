@@ -25,7 +25,7 @@
     <p id="p13161429133514"><a name="p13161429133514"></a><a name="p13161429133514"></a>华北-北京一：<a href="https://obs.myhwclouds.com/telescope/agent/telescope_windows_amd64.zip" target="_blank" rel="noopener noreferrer">http://obs.myhwclouds.com/telescope/agent/telescope_windows_amd64.zip</a></p>
     <p id="p14317929163510"><a name="p14317929163510"></a><a name="p14317929163510"></a>华南-广州：<a href="http://telescope-cn-south-1.obs.myhwclouds.com/agent/telescope_windows_amd64.zip" target="_blank" rel="noopener noreferrer">http://telescope-cn-south-1.obs.myhwclouds.com/agent/telescope_windows_amd64.zip</a></p>
     <p id="p531762920357"><a name="p531762920357"></a><a name="p531762920357"></a>华东-上海二：<a href="http://telescope-cn-east-2.obs.myhwclouds.com/agent/telescope_windows_amd64.zip" target="_blank" rel="noopener noreferrer">http://telescope-cn-east-2.obs.myhwclouds.com/agent/telescope_windows_amd64.zip</a></p>
-    <p id="p575185010570"><a name="p575185010570"></a><a name="p575185010570"></a>亚太-香港：<a href="https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/agent/telescope_windows_amd64.tar.gz">https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/agent/telescope_windows_amd64.tar.gz</a></p>
+    <p id="p575185010570"><a name="p575185010570"></a><a name="p575185010570"></a>亚太-香港：<a href="https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/agent/telescope_windows_amd64.tar.gz">https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/agent/telescope_windows_amd64.zip</a></p>
     </td>
     </tr>
     </tbody>
