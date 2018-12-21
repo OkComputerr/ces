@@ -37,6 +37,12 @@
     cd /usr/local && wget https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
     ```
 
+    亚太-曼谷：
+
+    ```
+    cd /usr/local && wget https://telescope-ap-southeast-2.obs.ap-southeast-2.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+    ```
+
     当回显如[图1](#fig1948103311810)所示时，说明Agent安装成功。
 
     **图 1**  Agent安装成功<a name="fig1948103311810"></a>  
@@ -45,5 +51,5 @@
     >![](public_sys-resources/icon-note.gif) **说明：**   
     >若下载Agent安装包失败，说明DNS和安全组配置异常，请参考[修改DNS与添加安全组](https://support.huaweicloud.com/ces_faq/ces_faq_0038.html)修改DNS与安全组。  
 
-3.  安装完成后，请参考[一键修复插件配置](一键修复插件配置.md)或[手动配置Agent](手动配置Agent.md)完成Agent的配置。
+3.  安装完成后，请参考[修复插件配置](修复插件配置.md)或[手动配置Agent](手动配置Agent.md)完成Agent的配置。
 

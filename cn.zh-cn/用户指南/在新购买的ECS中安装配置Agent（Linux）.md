@@ -94,6 +94,7 @@
     <p id="p1148217111669"><a name="p1148217111669"></a><a name="p1148217111669"></a>华东-上海二：<a href="http://telescope-cn-east-2.obs.myhwclouds.com/agent/telescope_linux_amd64.tar.gz" target="_blank" rel="noopener noreferrer">http://telescope-cn-east-2.obs.myhwclouds.com/agent/telescope_linux_amd64.tar.gz</a></p>
     <p id="p19206443129"><a name="p19206443129"></a><a name="p19206443129"></a>亚太-香港：</p>
     <p id="p1379975612392"><a name="p1379975612392"></a><a name="p1379975612392"></a><a href="https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/agent/telescope_linux_amd64.tar.gz" target="_blank" rel="noopener noreferrer">https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/agent/telescope_linux_amd64.tar.gz</a></p>
+    <p id="p1317722265315"><a name="p1317722265315"></a><a name="p1317722265315"></a>亚太-曼谷：<a href="https://telescope-ap-southeast-2.obs.ap-southeast-2.myhwclouds.com/agent/telescope_linux_amd64.tar.gz">https://telescope-ap-southeast-2.obs.ap-southeast-2.myhwclouds.com/agent/telescope_linux_amd64.tar.gz</a></p>
     </td>
     </tr>
     </tbody>
@@ -103,6 +104,6 @@
     ![](figures/用户数据注入.png "用户数据注入")
 
 7.  单击“立即购买”创建弹性云服务器。
-8.  弹性云服务器创建成功后，等待10分钟左右（ECS创建成功后还需要执行一些初始化配置），在“云监控 \> 主机监控”中看到对应ECS的插件状态为“运行中”；打开“监控状态”开关，Agent插件开始采集细粒度指标数据。
+8.  弹性云服务器创建成功后，等待10分钟左右（ECS创建成功后还需要执行一些初始化配置），在“云监控 \> 主机监控”中看到对应ECS的插件状态为“运行中”，Agent插件开始采集细粒度指标数据。
 9.  等待3-5min左右，查看细粒度（间隔10s）的监控数据。
 

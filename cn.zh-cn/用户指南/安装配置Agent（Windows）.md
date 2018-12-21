@@ -25,7 +25,7 @@
     <p id="p13161429133514"><a name="p13161429133514"></a><a name="p13161429133514"></a>华北-北京一：<a href="https://obs.myhwclouds.com/telescope/agent/telescope_windows_amd64.zip" target="_blank" rel="noopener noreferrer">http://obs.myhwclouds.com/telescope/agent/telescope_windows_amd64.zip</a></p>
     <p id="p14317929163510"><a name="p14317929163510"></a><a name="p14317929163510"></a>华南-广州：<a href="http://telescope-cn-south-1.obs.myhwclouds.com/agent/telescope_windows_amd64.zip" target="_blank" rel="noopener noreferrer">http://telescope-cn-south-1.obs.myhwclouds.com/agent/telescope_windows_amd64.zip</a></p>
     <p id="p531762920357"><a name="p531762920357"></a><a name="p531762920357"></a>华东-上海二：<a href="http://telescope-cn-east-2.obs.myhwclouds.com/agent/telescope_windows_amd64.zip" target="_blank" rel="noopener noreferrer">http://telescope-cn-east-2.obs.myhwclouds.com/agent/telescope_windows_amd64.zip</a></p>
-    <p id="p575185010570"><a name="p575185010570"></a><a name="p575185010570"></a>亚太-香港：<a href="https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/agent/telescope_windows_amd64.tar.gz">https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/agent/telescope_windows_amd64.zip</a></p>
+    <p id="p575185010570"><a name="p575185010570"></a><a name="p575185010570"></a>亚太-香港：<a href="https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/agent/telescope_windows_amd64.zip">https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/agent/telescope_windows_amd64.zip</a></p>
     </td>
     </tr>
     </tbody>
@@ -47,10 +47,10 @@
     >![](public_sys-resources/icon-note.gif) **说明：**   
     >Agent插件配置完成后，因监控数据暂未上报，插件状态仍显示“未安装”，等待3-5分钟，刷新即可。  
 
-5.  安装完成后，您可以选择进入主机监控界面，勾选需要配置插件的主机，单击"批量修复插件配置"，在弹出页面上，单击"一键修复"，完成配置Agent。
+5.  安装完成后，您可以选择进入主机监控界面，勾选需要配置插件的主机，单击"修复插件配置"，在弹出页面上，单击"一键修复"，完成配置Agent。
 
-    **图 2**  批量修复插件配置<a name="fig62115119195"></a>  
-    ![](figures/批量修复插件配置-0.png "批量修复插件配置-0")
+    **图 2**  修复插件配置<a name="fig62115119195"></a>  
+    ![](figures/修复插件配置-0.png "修复插件配置-0")
 
     如需手动配置Agent。打开telescope\_windows\_amd64\\bin文件夹下的conf.json文件，配置Agent具体参数，参数说明请参见[表1](手动配置Agent.md#zh-cn_topic_0078544025_table6225399118403)。然后双击执行install.bat脚本。
 
@@ -60,7 +60,9 @@
         "ProjectId": "",
         "AccessKey": "",
         "SecretKey": "",
-        "RegionId": "cn-north-1"
+        "RegionId": "cn-north-1",
+        "ClientPort": 0,
+        "PortNum": 200
     }
     ```
 

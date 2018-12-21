@@ -50,7 +50,7 @@ Cron 表达式是一个具有时间含义的字符串（String），字符串以
 </td>
 <td class="cellrowborder" valign="top" width="14.270000000000001%" headers="mcps1.2.5.1.2 "><p id="p16114130185520"><a name="p16114130185520"></a><a name="p16114130185520"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="46.34%" headers="mcps1.2.5.1.3 "><p id="p6114930165517"><a name="p6114930165517"></a><a name="p6114930165517"></a>1-12或JAN-DEC</p>
+<td class="cellrowborder" valign="top" width="46.34%" headers="mcps1.2.5.1.3 "><p id="p6114930165517"><a name="p6114930165517"></a><a name="p6114930165517"></a>1-12</p>
 </td>
 <td class="cellrowborder" valign="top" width="25.120000000000005%" headers="mcps1.2.5.1.4 "><p id="p6114830175519"><a name="p6114830175519"></a><a name="p6114830175519"></a>* , - /</p>
 </td>
@@ -59,8 +59,8 @@ Cron 表达式是一个具有时间含义的字符串（String），字符串以
 </td>
 <td class="cellrowborder" valign="top" width="14.270000000000001%" headers="mcps1.2.5.1.2 "><p id="p3115193010554"><a name="p3115193010554"></a><a name="p3115193010554"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="46.34%" headers="mcps1.2.5.1.3 "><p id="p78621449133812"><a name="p78621449133812"></a><a name="p78621449133812"></a>1-7或 SUN-SAT</p>
-<p id="p211519305552"><a name="p211519305552"></a><a name="p211519305552"></a>若使用1-7，1代表星期天，2 代表星期一。</p>
+<td class="cellrowborder" valign="top" width="46.34%" headers="mcps1.2.5.1.3 "><p id="p78621449133812"><a name="p78621449133812"></a><a name="p78621449133812"></a>1-7</p>
+<p id="p211519305552"><a name="p211519305552"></a><a name="p211519305552"></a>1代表星期天，2 代表星期一。</p>
 </td>
 <td class="cellrowborder" valign="top" width="25.120000000000005%" headers="mcps1.2.5.1.4 "><p id="p14115173014550"><a name="p14115173014550"></a><a name="p14115173014550"></a>* , - / ?</p>
 </td>
@@ -128,9 +128,9 @@ Cron 表达式是一个具有时间含义的字符串（String），字符串以
 <td class="cellrowborder" valign="top" width="80.77%" headers="mcps1.2.3.1.2 "><p id="p18656153071718"><a name="p18656153071718"></a><a name="p18656153071718"></a>每天上午10:15执行命令。</p>
 </td>
 </tr>
-<tr id="row29887354149"><td class="cellrowborder" valign="top" width="19.23%" headers="mcps1.2.3.1.1 "><p id="p12990173551413"><a name="p12990173551413"></a><a name="p12990173551413"></a>0 11,12,13 * * ?</p>
+<tr id="row29887354149"><td class="cellrowborder" valign="top" width="19.23%" headers="mcps1.2.3.1.1 "><p id="p12990173551413"><a name="p12990173551413"></a><a name="p12990173551413"></a>0 11,12 * * ?</p>
 </td>
-<td class="cellrowborder" valign="top" width="80.77%" headers="mcps1.2.3.1.2 "><p id="p139901735201416"><a name="p139901735201416"></a><a name="p139901735201416"></a>每天11:00、12:00 、13:00执行命令。</p>
+<td class="cellrowborder" valign="top" width="80.77%" headers="mcps1.2.3.1.2 "><p id="p139901735201416"><a name="p139901735201416"></a><a name="p139901735201416"></a>每天11:00、12:00执行命令。</p>
 </td>
 </tr>
 <tr id="row1299112351141"><td class="cellrowborder" valign="top" width="19.23%" headers="mcps1.2.3.1.1 "><p id="p1599163561411"><a name="p1599163561411"></a><a name="p1599163561411"></a>0/15 10-18 * * ?</p>
@@ -148,9 +148,9 @@ Cron 表达式是一个具有时间含义的字符串（String），字符串以
 <td class="cellrowborder" valign="top" width="80.77%" headers="mcps1.2.3.1.2 "><p id="p159981354149"><a name="p159981354149"></a><a name="p159981354149"></a>每天10:00到10:55 、14:00到14:55时间段内每隔5分钟执行命令。</p>
 </td>
 </tr>
-<tr id="row52113610145"><td class="cellrowborder" valign="top" width="19.23%" headers="mcps1.2.3.1.1 "><p id="p172836141417"><a name="p172836141417"></a><a name="p172836141417"></a>0 10 12 ? * MON-FRI</p>
+<tr id="row169339251266"><td class="cellrowborder" valign="top" width="19.23%" headers="mcps1.2.3.1.1 "><p id="p103511327867"><a name="p103511327867"></a><a name="p103511327867"></a>10 12 ? * 2-6</p>
 </td>
-<td class="cellrowborder" valign="top" width="80.77%" headers="mcps1.2.3.1.2 "><p id="p1390338163015"><a name="p1390338163015"></a><a name="p1390338163015"></a>周一到周五每天12:10执行命令。</p>
+<td class="cellrowborder" valign="top" width="80.77%" headers="mcps1.2.3.1.2 "><p id="p135120278612"><a name="p135120278612"></a><a name="p135120278612"></a>周一到周五每天12:10执行命令。</p>
 </td>
 </tr>
 </tbody>

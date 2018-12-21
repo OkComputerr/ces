@@ -52,6 +52,10 @@
 
     **cd /usr/local && wget https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
 
+    亚太-曼谷：
+
+    **cd /usr/local && wget https://telescope-ap-southeast-2.obs.ap-southeast-2.myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
+
 3.  执行如下命令，运行脚本并输入密码（多台ECS密码一致）。
 
     **cd /usr/local && ./batchInstall.sh $password**

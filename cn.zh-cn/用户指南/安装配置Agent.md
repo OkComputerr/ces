@@ -5,4 +5,5 @@
 -   自动安装请参见[在新购买的ECS中安装配置Agent（Linux）](在新购买的ECS中安装配置Agent（Linux）.md)。
 -   Linux系统安装请参见[安装配置Agent（Linux）](安装配置Agent（Linux）.md)。
 -   Windows系统安装请参见[安装配置Agent（Windows）](安装配置Agent（Windows）.md)。
+-   批量安装请参见[批量安装Agent（Linux）](批量安装Agent（Linux）.md)。
 
