@@ -31,7 +31,7 @@
     -   [在新购买的ECS中安装配置Agent（Linux）](在新购买的ECS中安装配置Agent（Linux）.md)
     -   [安装配置Agent（Linux）]
         -   [安装Agent](安装Agent.md)
-        -   [一键修复插件配置](一键修复插件配置.md)
+        -   [修复插件配置](修复插件配置.md)
         -   [手动配置Agent](手动配置Agent.md)
 
     -   [安装配置Agent（Windows）](安装配置Agent（Windows）.md)
