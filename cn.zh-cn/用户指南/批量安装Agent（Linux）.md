@@ -38,15 +38,19 @@
 
     华北-北京一：
 
-    **cd /usr/local && wget http://telescope.obs.cn-north-1.myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
+    **cd /usr/local && wget https://telescope.obs.cn-north-1.myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
+
+    华北-北京四：
+
+    **cd /usr/local && wget https://telescope-cn-north-4.**obs.**myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
 
     华南-广州：
 
-    **cd /usr/local && wget http://telescope-cn-south-1.obs.cn-south-1.myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
+    **cd /usr/local && wget https://telescope-cn-south-1.obs.cn-south-1.myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
 
     华东-上海二：
 
-    **cd /usr/local && wget http://telescope-cn-east-2.obs.cn-east-2.myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
+    **cd /usr/local && wget https://telescope-cn-east-2.obs.cn-east-2.myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
 
     亚太-香港：
 

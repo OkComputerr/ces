@@ -1,0 +1,107 @@
+# 修改DNS与添加安全组<a name="ZH-CN_TOPIC_0150354069"></a>
+
+## 操作场景<a name="zh-cn_topic_0078544024_section10035481163223"></a>
+
+本章节指导用户为ECS或BMS主机添加域名解析。
+
+>![](public_sys-resources/icon-note.gif) **说明：**   
+>添加DNS服务解析和配置安全组针对的是主网卡。  
+
+## 操作步骤<a name="zh-cn_topic_0078544024_section47827882164755"></a>
+
+1.  使用root账号，登录ECS或BMS。
+2.  <a name="zh-cn_topic_0078544024_li30189854165124"></a>添加域名解析地址至resolv.conf文件。
+    1.  输入“vi /etc/resolv.conf”，打开文件。
+    2.  在文件中添加“nameserver 100.125.1.250”（如下所示），保存设置。
+
+        **图 1**  添加域名解析地址<a name="fig152111017228"></a>  
+        ![](figures/添加域名解析地址.png "添加域名解析地址")
+
+        >![](public_sys-resources/icon-note.gif) **说明：**   
+        >不同区域nameserver不同，如下所示：  
+        >华北-北京一：100.125.1.250,100.125.21.250  
+        >华北-北京四：100.125.1.250,100.125.129.250  
+        >华东-上海二：100.125.17.29,100.125.135.29  
+        >华南-广州：100.125.1.250,100.125.136.29  
+        >亚太-香港：100.125.1.250,100.125.3.250  
+        >亚太-曼谷：100.125.1.250,100.125.3.250  
+
+
+3.  在管理控制台修改子网DNS服务器地址。
+    1.  在管理控制台左上角单击![](figures/icon-region.png)图标，选择区域和项目。
+    2.  选择“服务列表 \> 计算 \> 弹性云服务器”。
+
+        弹性云服务器列表中，单击ECS名称查看详情。
+
+    3.  在“虚拟私有云”项单击“vpc-ces”，进入“虚拟私有云”界面。如[图2](#fig0772121318363)所示。
+
+        **图 2**  虚拟私有云<a name="fig0772121318363"></a>  
+        ![](figures/虚拟私有云.png "虚拟私有云")
+
+    4.  在“VPC名称/ID”列表中，单击“vpc-ces”。
+    5.  在“子网”列表中，单击“subnet-3e3b”所在行“修改”。
+
+        弹出“修改子网”对话框，修改“DNS服务器地址1”为“100.125.1.250”。如[图3](#fig6241144284010)所示。
+
+        >![](public_sys-resources/icon-note.gif) **说明：**   
+        >-   subnet-3e3b为该ECS的子网。  
+        >-   DNS服务器地址与[2](#zh-cn_topic_0078544024_li30189854165124)中的nameserver保持一致。  
+
+        **图 3**  修改DNS服务器地址<a name="fig6241144284010"></a>  
+        ![](figures/修改DNS服务器地址.png "修改DNS服务器地址")
+
+    6.  单击“确定”，保存设置。
+
+        >![](public_sys-resources/icon-note.gif) **说明：**   
+        >在控制台修改DNS需重启ECS或BMS后生效。  
+
+
+4.  在“虚拟私有云 \> 安全组”页面。单击Sys-default右侧的添加规则，按[表1](#table89472534275)所示添加规则。
+
+    >![](public_sys-resources/icon-note.gif) **说明：**   
+    >Sys-default为该ECS的安全组。  
+
+    **表 1**  安全组规则
+
+    <a name="table89472534275"></a>
+    <table><thead align="left"><tr id="row12943453152710"><th class="cellrowborder" valign="top" width="11%" id="mcps1.2.5.1.1"><p id="p69421453152713"><a name="p69421453152713"></a><a name="p69421453152713"></a>方向</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="10%" id="mcps1.2.5.1.2"><p id="p149428533277"><a name="p149428533277"></a><a name="p149428533277"></a>协议</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="9%" id="mcps1.2.5.1.3"><p id="p69424532275"><a name="p69424532275"></a><a name="p69424532275"></a>端口</p>
+    </th>
+    <th class="cellrowborder" valign="top" width="70%" id="mcps1.2.5.1.4"><p id="p894395312278"><a name="p894395312278"></a><a name="p894395312278"></a>说明</p>
+    </th>
+    </tr>
+    </thead>
+    <tbody><tr id="row49431153112718"><td class="cellrowborder" valign="top" width="11%" headers="mcps1.2.5.1.1 "><p id="p1494312539277"><a name="p1494312539277"></a><a name="p1494312539277"></a>出方向</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="p14943185382715"><a name="p14943185382715"></a><a name="p14943185382715"></a>TCP</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="9%" headers="mcps1.2.5.1.3 "><p id="p594325317274"><a name="p594325317274"></a><a name="p594325317274"></a>80</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="70%" headers="mcps1.2.5.1.4 "><p id="p16651028185814"><a name="p16651028185814"></a><a name="p16651028185814"></a>用于wget从OBS桶下载Agent包。</p>
+    </td>
+    </tr>
+    <tr id="row6944145315277"><td class="cellrowborder" valign="top" width="11%" headers="mcps1.2.5.1.1 "><p id="p69441453102716"><a name="p69441453102716"></a><a name="p69441453102716"></a>出方向</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="p1394425315273"><a name="p1394425315273"></a><a name="p1394425315273"></a>UDP</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="9%" headers="mcps1.2.5.1.3 "><p id="p6944185312278"><a name="p6944185312278"></a><a name="p6944185312278"></a>53</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="70%" headers="mcps1.2.5.1.4 "><p id="p1051336115813"><a name="p1051336115813"></a><a name="p1051336115813"></a>用于DNS解析域名，需要解析OBS地址、Cloud Eye开放接口地址、LTS开放接口地址。</p>
+    </td>
+    </tr>
+    <tr id="row19947105314275"><td class="cellrowborder" valign="top" width="11%" headers="mcps1.2.5.1.1 "><p id="p1894418532279"><a name="p1894418532279"></a><a name="p1894418532279"></a>出方向</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="p15947145313278"><a name="p15947145313278"></a><a name="p15947145313278"></a>TCP</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="9%" headers="mcps1.2.5.1.3 "><p id="p1194755318274"><a name="p1194755318274"></a><a name="p1194755318274"></a>443</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="70%" headers="mcps1.2.5.1.4 "><p id="p2748650125812"><a name="p2748650125812"></a><a name="p2748650125812"></a>用于发指标数据、采集日志。云监控和云日志服务的开放接口是HTTPS请求。</p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
+
