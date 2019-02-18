@@ -7,6 +7,7 @@
 ## 前提条件<a name="section1173079143610"></a>
 
 -   确保[操作步骤](#section494503071814)中的安装目录都有读写权限，并且安装成功后的Telescope进程不会被其他软件关闭。
+-   已参考[修改DNS与添加安全组](修改DNS与添加安全组.md)完成DNS与安全组配置。
 
 ## 操作步骤<a name="section494503071814"></a>
 
@@ -16,19 +17,25 @@
     华北-北京一：
 
     ```
-    cd /usr/local && wget http://telescope.obs.cn-north-1.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+    cd /usr/local && wget https://telescope.obs.cn-north-1.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+    ```
+
+    华北-北京四：
+
+    ```
+    cd /usr/local && wget https://telescope-cn-north-4.obs.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
     ```
 
     华南-广州：
 
     ```
-    cd /usr/local && wget http://telescope-cn-south-1.obs.cn-south-1.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+    cd /usr/local && wget https://telescope-cn-south-1.obs.cn-south-1.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
     ```
 
     华东-上海二：
 
     ```
-    cd /usr/local && wget http://telescope-cn-east-2.obs.cn-east-2.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+    cd /usr/local && wget https://telescope-cn-east-2.obs.cn-east-2.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
     ```
 
     亚太-香港：
@@ -47,9 +54,6 @@
 
     **图 1**  Agent安装成功<a name="fig1948103311810"></a>  
     ![](figures/Agent安装成功.png "Agent安装成功")
-
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >若下载Agent安装包失败，说明DNS和安全组配置异常，请参考[修改DNS与添加安全组](https://support.huaweicloud.com/ces_faq/ces_faq_0038.html)修改DNS与安全组。  
 
 3.  安装完成后，请参考[修复插件配置](修复插件配置.md)或[手动配置Agent](手动配置Agent.md)完成Agent的配置。
 

@@ -24,7 +24,7 @@ Agent支持云日志服务收集操作系统日志。
 ## 1.0.6版本<a name="section14953144417539"></a>
 
 -   Agent支持Windows系统，具体操作系统请参见[Agent支持的系统有哪些](https://support.huaweicloud.com/ces_faq/ces_faq_0024.html)。
--   新增批量修复插件配置功能。
+-   新增修复插件配置功能。
 -   进程监控新增监控指标。
 
 ## 1.0.5版本<a name="section16105385213"></a>
