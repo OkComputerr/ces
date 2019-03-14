@@ -17,37 +17,37 @@
     华北-北京一：
 
     ```
-    cd /usr/local && wget https://telescope.obs.cn-north-1.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+    cd /usr/local && wget https://telescope.obs.cn-north-1.myhuaweicloud.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
     ```
 
     华北-北京四：
 
     ```
-    cd /usr/local && wget https://telescope-cn-north-4.obs.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+    cd /usr/local && wget https://telescope-cn-north-4.obs.cn-north-4.myhuaweicloud.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
     ```
 
     华南-广州：
 
     ```
-    cd /usr/local && wget https://telescope-cn-south-1.obs.cn-south-1.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+    cd /usr/local && wget https://telescope-cn-south-1.obs.cn-south-1.myhuaweicloud.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
     ```
 
     华东-上海二：
 
     ```
-    cd /usr/local && wget https://telescope-cn-east-2.obs.cn-east-2.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+    cd /usr/local && wget https://telescope-cn-east-2.obs.cn-east-2.myhuaweicloud.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
     ```
 
     亚太-香港：
 
     ```
-    cd /usr/local && wget https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+    cd /usr/local && wget https://telescope-ap-southeast-1.obs.ap-southeast-1.myhuaweicloud.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
     ```
 
     亚太-曼谷：
 
     ```
-    cd /usr/local && wget https://telescope-ap-southeast-2.obs.ap-southeast-2.myhwclouds.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
+    cd /usr/local && wget https://telescope-ap-southeast-2.obs.ap-southeast-2.myhuaweicloud.com/scripts/agentInstall.sh && chmod 755 agentInstall.sh && ./agentInstall.sh
     ```
 
     当回显如[图1](#fig1948103311810)所示时，说明Agent安装成功。

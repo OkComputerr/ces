@@ -36,7 +36,7 @@
 
 5.  执行如下命令，下载采集插件脚本（以下以GPU插件为例）。
 
-    **wget  **https://obs.myhwclouds.com/telescope/gpu\_collector****
+    **wget  **https://telescope.obs.cn-north-1.myhuaweicloud.com/gpu\_collector****
 
     **表 1**  获取插件采集安装包
 
@@ -49,22 +49,22 @@
     </thead>
     <tbody><tr id="zh-cn_topic_0078544024_row4408113517055"><td class="cellrowborder" valign="top" width="26%" headers="mcps1.2.3.1.1 "><p id="p428593214552"><a name="p428593214552"></a><a name="p428593214552"></a>Linux 64位GPU指标采集插件安装包</p>
     </td>
-    <td class="cellrowborder" valign="top" width="74%" headers="mcps1.2.3.1.2 "><p id="p17289419125518"><a name="p17289419125518"></a><a name="p17289419125518"></a>华北-北京一<span>：</span><a href="https://obs.myhwclouds.com/telescope/gpu_collector" target="_blank" rel="noopener noreferrer">https://obs.myhwclouds.com/telescope/gpu_collector</a></p>
-    <p id="p3652616121316"><a name="p3652616121316"></a><a name="p3652616121316"></a>华北-北京四<span>：</span><a href="https://telescope-cn-north-4.obs.myhwclouds.com/gpu_collector" target="_blank" rel="noopener noreferrer">https://telescope-cn-north-4.obs.myhwclouds.com/gpu_collector</a></p>
-    <p id="p10945142315549"><a name="p10945142315549"></a><a name="p10945142315549"></a>华南-广州：<a href="https://telescope-cn-south-1.obs.myhwclouds.com/gpu_collector">https://telescope-cn-south-1.obs.myhwclouds.com/gpu_collector</a></p>
-    <p id="p9945423195411"><a name="p9945423195411"></a><a name="p9945423195411"></a>华东-上海二：<a href="https://telescope-cn-east-2.obs.myhwclouds.com/gpu_collector">https://telescope-cn-east-2.obs.myhwclouds.com/gpu_collector</a></p>
-    <p id="p65151012202019"><a name="p65151012202019"></a><a name="p65151012202019"></a>亚太-香港：<a href="https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/gpu_collector">https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/gpu_collector</a></p>
-    <p id="p1027511153160"><a name="p1027511153160"></a><a name="p1027511153160"></a>亚太-曼谷：<a href="https://telescope-ap-southeast-2.obs.ap-southeast-2.myhwclouds.com/gpu_collector">https://telescope-ap-southeast-2.obs.ap-southeast-2.myhwclouds.com/gpu_collector</a></p>
+    <td class="cellrowborder" valign="top" width="74%" headers="mcps1.2.3.1.2 "><p id="p17289419125518"><a name="p17289419125518"></a><a name="p17289419125518"></a>华北-北京一<span>：</span><a href="https://telescope.obs.cn-north-1.myhuaweicloud.com/gpu_collector" target="_blank" rel="noopener noreferrer">https://telescope.obs.cn-north-1.myhuaweicloud.com/gpu_collector</a></p>
+    <p id="p3652616121316"><a name="p3652616121316"></a><a name="p3652616121316"></a>华北-北京四<span>：</span><a href="https://telescope-cn-north-4.obs.cn-north-4.myhuaweicloud.com/gpu_collector" target="_blank" rel="noopener noreferrer">https://telescope-cn-north-4.obs.cn-north-4.myhuaweicloud.com/gpu_collector</a></p>
+    <p id="p10945142315549"><a name="p10945142315549"></a><a name="p10945142315549"></a>华南-广州：<a href="https://telescope-cn-south-1.obs.cn-south-1.myhuaweicloud.com/gpu_collector">https://telescope-cn-south-1.obs.cn-south-1.myhuaweicloud.com/gpu_collector</a></p>
+    <p id="p9945423195411"><a name="p9945423195411"></a><a name="p9945423195411"></a>华东-上海二：<a href="https://telescope-cn-east-2.obs.cn-east-2.myhuaweicloud.com/gpu_collector">https://telescope-cn-east-2.obs.cn-east-2.myhuaweicloud.com/gpu_collector</a></p>
+    <p id="p65151012202019"><a name="p65151012202019"></a><a name="p65151012202019"></a>亚太-香港：<a href="https://telescope-ap-southeast-1.obs.ap-southeast-1.myhuaweicloud.com/gpu_collector">https://telescope-ap-southeast-1.obs.ap-southeast-1.myhuaweicloud.com/gpu_collector</a></p>
+    <p id="p1027511153160"><a name="p1027511153160"></a><a name="p1027511153160"></a>亚太-曼谷：<a href="https://telescope-ap-southeast-2.obs.ap-southeast-2.myhuaweicloud.com/gpu_collector">https://telescope-ap-southeast-2.obs.ap-southeast-2.myhuaweicloud.com/gpu_collector</a></p>
     </td>
     </tr>
     <tr id="row119822016478"><td class="cellrowborder" valign="top" width="26%" headers="mcps1.2.3.1.1 "><p id="p59827084713"><a name="p59827084713"></a><a name="p59827084713"></a>Linux 64位RAID指标采集插件安装包</p>
     </td>
-    <td class="cellrowborder" valign="top" width="74%" headers="mcps1.2.3.1.2 "><p id="p193828811471"><a name="p193828811471"></a><a name="p193828811471"></a>华北-北京一<span>：</span><a href="https://obs.myhwclouds.com/telescope/raid_monitor.sh" target="_blank" rel="noopener noreferrer">https://obs.myhwclouds.com/telescope/raid_monitor.sh</a></p>
-    <p id="p12454812101716"><a name="p12454812101716"></a><a name="p12454812101716"></a>华北-北京四<span>：</span><a href="https://telescope-cn-north-4.obs.myhwclouds.com/raid_monitor.sh" target="_blank" rel="noopener noreferrer">https://telescope-cn-north-4.obs.myhwclouds.com/raid_monitor.sh</a></p>
-    <p id="p12138134710541"><a name="p12138134710541"></a><a name="p12138134710541"></a>华南-广州：<a href="https://telescope-cn-south-1.obs.myhwclouds.com/raid_monitor.sh">https://telescope-cn-south-1.obs.myhwclouds.com/raid_monitor.sh</a></p>
-    <p id="p1413844718542"><a name="p1413844718542"></a><a name="p1413844718542"></a>华东-上海二：<a href="https://telescope-cn-east-2.obs.myhwclouds.com/raid_monitor.sh">https://telescope-cn-east-2.obs.myhwclouds.com/raid_monitor.sh</a></p>
-    <p id="p192042319205"><a name="p192042319205"></a><a name="p192042319205"></a>亚太-香港：<a href="https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/raid_monitor.sh">https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/raid_monitor.sh</a></p>
-    <p id="p984264810165"><a name="p984264810165"></a><a name="p984264810165"></a>亚太-曼谷：<a href="https://telescope-ap-southeast-2.obs.ap-southeast-2.myhwclouds.com/raid_monitor.sh">https://telescope-ap-southeast-2.obs.ap-southeast-2.myhwclouds.com/raid_monitor.sh</a></p>
+    <td class="cellrowborder" valign="top" width="74%" headers="mcps1.2.3.1.2 "><p id="p193828811471"><a name="p193828811471"></a><a name="p193828811471"></a>华北-北京一<span>：</span><a href="https://telescope.obs.cn-north-1.myhuaweicloud.com/raid_monitor.sh" target="_blank" rel="noopener noreferrer">https://telescope.obs.cn-north-1.myhuaweicloud.com/raid_monitor.sh</a></p>
+    <p id="p12454812101716"><a name="p12454812101716"></a><a name="p12454812101716"></a>华北-北京四<span>：</span><a href="https://telescope-cn-north-4.obs.cn-north-4.myhuaweicloud.com/raid_monitor.sh" target="_blank" rel="noopener noreferrer">https://telescope-cn-north-4.obs.cn-north-4.myhuaweicloud.com/raid_monitor.sh</a></p>
+    <p id="p12138134710541"><a name="p12138134710541"></a><a name="p12138134710541"></a>华南-广州：<a href="https://telescope-cn-south-1.obs.cn-south-1.myhuaweicloud.com/raid_monitor.sh">https://telescope-cn-south-1.obs.cn-south-1.myhuaweicloud.com/raid_monitor.sh</a></p>
+    <p id="p1413844718542"><a name="p1413844718542"></a><a name="p1413844718542"></a>华东-上海二：<a href="https://telescope-cn-east-2.obs.cn-east-2.myhuaweicloud.com/raid_monitor.sh">https://telescope-cn-east-2.obs.cn-east-2.myhuaweicloud.com/raid_monitor.sh</a></p>
+    <p id="p192042319205"><a name="p192042319205"></a><a name="p192042319205"></a>亚太-香港：<a href="https://telescope-ap-southeast-1.obs.ap-southeast-1.myhuaweicloud.com/raid_monitor.sh">https://telescope-ap-southeast-1.obs.ap-southeast-1.myhuaweicloud.com/raid_monitor.sh</a></p>
+    <p id="p984264810165"><a name="p984264810165"></a><a name="p984264810165"></a>亚太-曼谷：<a href="https://telescope-ap-southeast-2.obs.ap-southeast-2.myhuaweicloud.com/raid_monitor.sh">https://telescope-ap-southeast-2.obs.ap-southeast-2.myhuaweicloud.com/raid_monitor.sh</a></p>
     </td>
     </tr>
     </tbody>

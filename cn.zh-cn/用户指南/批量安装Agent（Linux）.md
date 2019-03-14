@@ -38,27 +38,27 @@
 
     华北-北京一：
 
-    **cd /usr/local && wget https://telescope.obs.cn-north-1.myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
+    **cd /usr/local && wget https://telescope.obs.cn-north-1.myhuaweicloud.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
 
     华北-北京四：
 
-    **cd /usr/local && wget https://telescope-cn-north-4.**obs.**myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
+    **cd /usr/local && wget https://telescope-cn-north-4.**obs.**myhuaweicloud.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
 
     华南-广州：
 
-    **cd /usr/local && wget https://telescope-cn-south-1.obs.cn-south-1.myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
+    **cd /usr/local && wget https://telescope-cn-south-1.obs.cn-south-1.myhuaweicloud.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
 
     华东-上海二：
 
-    **cd /usr/local && wget https://telescope-cn-east-2.obs.cn-east-2.myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
+    **cd /usr/local && wget https://telescope-cn-east-2.obs.cn-east-2.myhuaweicloud.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
 
     亚太-香港：
 
-    **cd /usr/local && wget https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
+    **cd /usr/local && wget https://telescope-ap-southeast-1.obs.ap-southeast-1.myhuaweicloud.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
 
     亚太-曼谷：
 
-    **cd /usr/local && wget https://telescope-ap-southeast-2.obs.ap-southeast-2.myhwclouds.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
+    **cd /usr/local && wget https://telescope-ap-southeast-2.obs.ap-southeast-2.myhuaweicloud.com/scripts/agentBatchPackage.sh && chmod 755 agentBatchPackage.sh && ./agentBatchPackage.sh**
 
 3.  执行如下命令，运行脚本并输入密码（多台ECS密码一致）。
 
