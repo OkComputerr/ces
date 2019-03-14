@@ -10,7 +10,7 @@
 ## 前提条件<a name="zh-cn_topic_0085189469_section10281815125918"></a>
 
 -   已修改VPC的子网DNS地址并配置安全组，为购买后的ECS添加域名解析，具体操作步骤请参见[修改DNS与安全组](https://support.huaweicloud.com/ces_faq/ces_faq_0038.html)。
--   已下载cloud-config配置，下载路径[https://obs.myhwclouds.com/telescope/agent/cloudinit\_conf\_template.txt](https://obs.myhwclouds.com/telescope/agent/cloudinit_conf_template.txt)。
+-   已下载cloud-config配置，下载路径[https://telescope.obs.cn-north-1.myhuaweicloud.com/agent/cloudinit\_conf\_template.txt](https://telescope.obs.cn-north-1.myhuaweicloud.com/agent/cloudinit_conf_template.txt)。
 
     **表 1**  获取安装包
 
@@ -23,7 +23,7 @@
     </thead>
     <tbody><tr id="row192771365815"><td class="cellrowborder" valign="top" width="29.29%" headers="mcps1.2.3.1.1 "><p id="p992791315818"><a name="p992791315818"></a><a name="p992791315818"></a>cloudinit_conf_template.txt</p>
     </td>
-    <td class="cellrowborder" valign="top" width="70.71%" headers="mcps1.2.3.1.2 "><p id="p1092731335812"><a name="p1092731335812"></a><a name="p1092731335812"></a>下载路径：<a href="https://obs.myhwclouds.com/telescope/agent/cloudinit_conf_template.txt" target="_blank" rel="noopener noreferrer">https://obs.myhwclouds.com/telescope/agent/cloudinit_conf_template.txt</a></p>
+    <td class="cellrowborder" valign="top" width="70.71%" headers="mcps1.2.3.1.2 "><p id="p1092731335812"><a name="p1092731335812"></a><a name="p1092731335812"></a>下载路径：<a href="https://telescope.obs.cn-north-1.myhuaweicloud.com/agent/cloudinit_conf_template.txt" target="_blank" rel="noopener noreferrer">https://telescope.obs.cn-north-1.myhuaweicloud.com/agent/cloudinit_conf_template.txt</a></p>
     </td>
     </tr>
     </tbody>
@@ -61,7 +61,7 @@
           }
     
     runcmd:
-      - cd /usr/local/ && wget https://obs.myhwclouds.com/telescope/agent/telescope_linux_amd64.tar.gz && tar -zxvf telescope_linux_amd64.tar.gz
+      - cd /usr/local/ && wget https://obs.cn-north-1.myhuaweicloud.com/telescope/agent/telescope_linux_amd64.tar.gz && tar -zxvf telescope_linux_amd64.tar.gz
       - chmod 755 /usr/local/telescope_linux_amd64/install.sh && /usr/local/telescope_linux_amd64/install.sh
       - mv /home/linux/userInfo.txt /usr/local/telescope/bin/conf.json
       - cd /usr/local/ && wget http://169.254.169.254/openstack/latest/meta_data.json
@@ -87,13 +87,13 @@
     <td class="cellrowborder" valign="top" width="9.64%" headers="mcps1.2.4.1.2 "><p id="p42429299416"><a name="p42429299416"></a><a name="p42429299416"></a>tar.gz</p>
     </td>
     <td class="cellrowborder" valign="top" width="63.89%" headers="mcps1.2.4.1.3 "><p id="p1662541441"><a name="p1662541441"></a><a name="p1662541441"></a>下载路径</p>
-    <p id="p13482211866"><a name="p13482211866"></a><a name="p13482211866"></a>华北-北京一：<a href="https://obs.myhwclouds.com/telescope/agent/telescope_linux_amd64.tar.gz">https://obs.myhwclouds.com/telescope/agent/telescope_linux_amd64.tar.gz</a></p>
-    <p id="p1881493015414"><a name="p1881493015414"></a><a name="p1881493015414"></a>华北-北京四：<a href="https://telescope-cn-north-4.obs.myhwclouds.com/agent/telescope_linux_amd64.tar.gz">https://telescope-cn-north-4.obs.myhwclouds.com/agent/telescope_linux_amd64.tar.gz</a></p>
-    <p id="p74825111164"><a name="p74825111164"></a><a name="p74825111164"></a>华南-广州：<a href="https://telescope-cn-south-1.obs.myhwclouds.com/agent/telescope_linux_amd64.tar.gz">https://telescope-cn-south-1.obs.myhwclouds.com/agent/telescope_linux_amd64.tar.gz</a></p>
-    <p id="p1148217111669"><a name="p1148217111669"></a><a name="p1148217111669"></a>华东-上海二：<a href="https://telescope-cn-east-2.obs.myhwclouds.com/agent/telescope_linux_amd64.tar.gz">https://telescope-cn-east-2.obs.myhwclouds.com/agent/telescope_linux_amd64.tar.gz</a></p>
+    <p id="p13482211866"><a name="p13482211866"></a><a name="p13482211866"></a>华北-北京一：<a href="https://telescope.obs.cn-north-1.myhuaweicloud.com/agent/telescope_linux_amd64.tar.gz">https://telescope.obs.cn-north-1.myhuaweicloud.com/agent/telescope_linux_amd64.tar.gz</a></p>
+    <p id="p1881493015414"><a name="p1881493015414"></a><a name="p1881493015414"></a>华北-北京四：<a href="https://telescope-cn-north-4.obs.cn-north-4.myhuaweicloud.com/agent/telescope_linux_amd64.tar.gz">https://telescope-cn-north-4.obs.cn-north-4.myhuaweicloud.com/agent/telescope_linux_amd64.tar.gz</a></p>
+    <p id="p74825111164"><a name="p74825111164"></a><a name="p74825111164"></a>华南-广州：<a href="https://telescope-cn-south-1.obs.cn-south-1.myhuaweicloud.com/agent/telescope_linux_amd64.tar.gz">https://telescope-cn-south-1.obs.cn-south-1.myhuaweicloud.com/agent/telescope_linux_amd64.tar.gz</a></p>
+    <p id="p1148217111669"><a name="p1148217111669"></a><a name="p1148217111669"></a>华东-上海二：<a href="https://telescope-cn-east-2.obs.cn-east-2.myhuaweicloud.com/agent/telescope_linux_amd64.tar.gz">https://telescope-cn-east-2.obs.cn-east-2.myhuaweicloud.com/agent/telescope_linux_amd64.tar.gz</a></p>
     <p id="p19206443129"><a name="p19206443129"></a><a name="p19206443129"></a>亚太-香港：</p>
-    <p id="p1379975612392"><a name="p1379975612392"></a><a name="p1379975612392"></a><a href="https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/agent/telescope_linux_amd64.tar.gz" target="_blank" rel="noopener noreferrer">https://telescope-ap-southeast-1.obs.ap-southeast-1.myhwclouds.com/agent/telescope_linux_amd64.tar.gz</a></p>
-    <p id="p1317722265315"><a name="p1317722265315"></a><a name="p1317722265315"></a>亚太-曼谷：<a href="https://telescope-ap-southeast-2.obs.ap-southeast-2.myhwclouds.com/agent/telescope_linux_amd64.tar.gz">https://telescope-ap-southeast-2.obs.ap-southeast-2.myhwclouds.com/agent/telescope_linux_amd64.tar.gz</a></p>
+    <p id="p1379975612392"><a name="p1379975612392"></a><a name="p1379975612392"></a><a href="https://telescope-ap-southeast-1.obs.ap-southeast-1.myhuaweicloud.com/agent/telescope_linux_amd64.tar.gz">https://telescope-ap-southeast-1.obs.ap-southeast-1.myhuaweicloud.com/agent/telescope_linux_amd64.tar.gz</a></p>
+    <p id="p1317722265315"><a name="p1317722265315"></a><a name="p1317722265315"></a>亚太-曼谷：<a href="https://telescope-ap-southeast-2.obs.ap-southeast-2.myhuaweicloud.com/agent/telescope_linux_amd64.tar.gz">https://telescope-ap-southeast-2.obs.ap-southeast-2.myhuaweicloud.com/agent/telescope_linux_amd64.tar.gz</a></p>
     </td>
     </tr>
     </tbody>
