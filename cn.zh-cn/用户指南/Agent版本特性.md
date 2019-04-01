@@ -2,6 +2,10 @@
 
 云监控提供的Agent不同版本支持的监控指标或功能有所不同。各版特性列表如下所示：
 
+## 1.1.2版本<a name="section185865455177"></a>
+
+优化Agent性能，当Agent不上报数据时可参考[Agent不上报数据时该如何处理？](https://support.huaweicloud.com/ces_faq/ces_faq_0041.html)手动处理。
+
 ## 1.0.14版本<a name="section96571945163812"></a>
 
 操作系统监控新增磁盘类监控指标。

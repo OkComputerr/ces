@@ -15,7 +15,7 @@
 
 ## 前提条件<a name="zh-cn_topic_0111157443_section57291745182517"></a>
 
--   已收集需要安装Agent的所有虚拟机IP，按照iplist.txt格式整理好，并上传到第一台机器的/usr/local目录下
+-   已收集需要安装Agent的所有虚拟机IP，按照iplist.txt格式整理好，并上传到第一台机器的/usr/local目录下。
 
     >![](public_sys-resources/icon-note.gif) **说明：**   
     >iplist.txt格式示例如下所示（多台ECS密码一致，可只填写IP）。  
@@ -33,8 +33,8 @@
 
 ## 操作步骤<a name="zh-cn_topic_0111157443_section335374517325"></a>
 
-1.  使用Putty以root用户登录到第一台弹性云服务器中。
-2.  执行如下命令，下载batchInstallAgent.tar.gz。
+1.  使用Putty以root用户登录到已安装Agent的弹性云服务器中。
+2.  执行如下命令，下载并安装batchInstallAgent.tar.gz。
 
     华北-北京一：
 
