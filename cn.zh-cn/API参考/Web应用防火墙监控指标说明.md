@@ -1,14 +1,14 @@
 # Web应用防火墙监控指标说明<a name="ZH-CN_TOPIC_0077629995"></a>
 
-## **功能说明**<a name="zh-cn_topic_0067114431_section7818464131458"></a>
+## 功能说明<a name="zh-cn_topic_0067114431_section7818464131458"></a>
 
 本节定义了Web应用防火墙服务上报云监控指标的命名空间，监控指标列表和维度定义，用户可以通过云监控服务提供的API接口来检索Web应用防火墙服务产生的监控指标和告警信息。
 
-## **命名空间**<a name="zh-cn_topic_0067114431_section63878810131529"></a>
+## 命名空间<a name="zh-cn_topic_0067114431_section63878810131529"></a>
 
 SYS.WAF
 
-## **监控指标**<a name="zh-cn_topic_0067114431_section64753703131557"></a>
+## 监控指标<a name="zh-cn_topic_0067114431_section64753703131557"></a>
 
 <a name="zh-cn_topic_0067114431_table5331155094045"></a>
 <table><thead align="left"><tr id="zh-cn_topic_0067114431_zh-cn_topic_0015479905_row4079778316522"><th class="cellrowborder" valign="top" width="18%" id="mcps1.1.6.1.1"><p id="zh-cn_topic_0067114431_p1784101911244"><a name="zh-cn_topic_0067114431_p1784101911244"></a><a name="zh-cn_topic_0067114431_p1784101911244"></a>指标</p>
@@ -98,7 +98,7 @@ SYS.WAF
 </tbody>
 </table>
 
-## **维度**<a name="zh-cn_topic_0067114431_section63551882131628"></a>
+## 维度<a name="zh-cn_topic_0067114431_section63551882131628"></a>
 
 <a name="zh-cn_topic_0067114431_table2768457312211"></a>
 <table><thead align="left"><tr id="zh-cn_topic_0067114431_row4156438612211"><th class="cellrowborder" valign="top" width="46.06%" id="mcps1.1.3.1.1"><p id="zh-cn_topic_0067114431_p1127207512211"><a name="zh-cn_topic_0067114431_p1127207512211"></a><a name="zh-cn_topic_0067114431_p1127207512211"></a><strong id="zh-cn_topic_0067114431_b3433981112211"><a name="zh-cn_topic_0067114431_b3433981112211"></a><a name="zh-cn_topic_0067114431_b3433981112211"></a>Key</strong></p>
