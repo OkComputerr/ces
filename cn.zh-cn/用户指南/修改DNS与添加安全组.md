@@ -2,7 +2,7 @@
 
 ## 操作场景<a name="zh-cn_topic_0078544024_section10035481163223"></a>
 
-本章节指导用户为ECS或BMS主机添加域名解析。
+本章节指导用户为Linux系统的ECS或BMS主机添加域名解析并添加安全组，防止下载Agent安装包与采集监控数据时出现异常。
 
 >![](public_sys-resources/icon-note.gif) **说明：**   
 >添加DNS服务解析和配置安全组针对的是主网卡。  
@@ -66,39 +66,39 @@
         <a name="table89472534275"></a>
         <table><thead align="left"><tr id="row12943453152710"><th class="cellrowborder" valign="top" width="11%" id="mcps1.2.5.1.1"><p id="p69421453152713"><a name="p69421453152713"></a><a name="p69421453152713"></a>方向</p>
         </th>
-        <th class="cellrowborder" valign="top" width="10%" id="mcps1.2.5.1.2"><p id="p149428533277"><a name="p149428533277"></a><a name="p149428533277"></a>协议</p>
+        <th class="cellrowborder" valign="top" width="11.43%" id="mcps1.2.5.1.2"><p id="p149428533277"><a name="p149428533277"></a><a name="p149428533277"></a>协议</p>
         </th>
-        <th class="cellrowborder" valign="top" width="9%" id="mcps1.2.5.1.3"><p id="p69424532275"><a name="p69424532275"></a><a name="p69424532275"></a>端口</p>
+        <th class="cellrowborder" valign="top" width="8.21%" id="mcps1.2.5.1.3"><p id="p69424532275"><a name="p69424532275"></a><a name="p69424532275"></a>端口</p>
         </th>
-        <th class="cellrowborder" valign="top" width="70%" id="mcps1.2.5.1.4"><p id="p894395312278"><a name="p894395312278"></a><a name="p894395312278"></a>说明</p>
+        <th class="cellrowborder" valign="top" width="69.36%" id="mcps1.2.5.1.4"><p id="p894395312278"><a name="p894395312278"></a><a name="p894395312278"></a>说明</p>
         </th>
         </tr>
         </thead>
         <tbody><tr id="row49431153112718"><td class="cellrowborder" valign="top" width="11%" headers="mcps1.2.5.1.1 "><p id="p1494312539277"><a name="p1494312539277"></a><a name="p1494312539277"></a>出方向</p>
         </td>
-        <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="p14943185382715"><a name="p14943185382715"></a><a name="p14943185382715"></a>TCP</p>
+        <td class="cellrowborder" valign="top" width="11.43%" headers="mcps1.2.5.1.2 "><p id="p14943185382715"><a name="p14943185382715"></a><a name="p14943185382715"></a>TCP</p>
         </td>
-        <td class="cellrowborder" valign="top" width="9%" headers="mcps1.2.5.1.3 "><p id="p594325317274"><a name="p594325317274"></a><a name="p594325317274"></a>80</p>
+        <td class="cellrowborder" valign="top" width="8.21%" headers="mcps1.2.5.1.3 "><p id="p594325317274"><a name="p594325317274"></a><a name="p594325317274"></a>80</p>
         </td>
-        <td class="cellrowborder" valign="top" width="70%" headers="mcps1.2.5.1.4 "><p id="p16651028185814"><a name="p16651028185814"></a><a name="p16651028185814"></a>用于wget从OBS桶下载Agent包。</p>
+        <td class="cellrowborder" valign="top" width="69.36%" headers="mcps1.2.5.1.4 "><p id="p16651028185814"><a name="p16651028185814"></a><a name="p16651028185814"></a>用于从OBS桶下载Agent包到ECS或BMS中、获取ECS或BMS的元数据信息与鉴权信息。</p>
         </td>
         </tr>
         <tr id="row6944145315277"><td class="cellrowborder" valign="top" width="11%" headers="mcps1.2.5.1.1 "><p id="p69441453102716"><a name="p69441453102716"></a><a name="p69441453102716"></a>出方向</p>
         </td>
-        <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="p1394425315273"><a name="p1394425315273"></a><a name="p1394425315273"></a>TCP、UDP</p>
+        <td class="cellrowborder" valign="top" width="11.43%" headers="mcps1.2.5.1.2 "><p id="p1394425315273"><a name="p1394425315273"></a><a name="p1394425315273"></a>TCP、UDP</p>
         </td>
-        <td class="cellrowborder" valign="top" width="9%" headers="mcps1.2.5.1.3 "><p id="p6944185312278"><a name="p6944185312278"></a><a name="p6944185312278"></a>53</p>
+        <td class="cellrowborder" valign="top" width="8.21%" headers="mcps1.2.5.1.3 "><p id="p6944185312278"><a name="p6944185312278"></a><a name="p6944185312278"></a>53</p>
         </td>
-        <td class="cellrowborder" valign="top" width="70%" headers="mcps1.2.5.1.4 "><p id="p1051336115813"><a name="p1051336115813"></a><a name="p1051336115813"></a>用于DNS解析域名，需要解析OBS地址、Cloud Eye开放接口地址、LTS开放接口地址。</p>
+        <td class="cellrowborder" valign="top" width="69.36%" headers="mcps1.2.5.1.4 "><p id="p1051336115813"><a name="p1051336115813"></a><a name="p1051336115813"></a>用于DNS解析域名，下载Agent时解析OBS地址、发送监控数据时解析云监控服务Endpoint地址。</p>
         </td>
         </tr>
         <tr id="row19947105314275"><td class="cellrowborder" valign="top" width="11%" headers="mcps1.2.5.1.1 "><p id="p1894418532279"><a name="p1894418532279"></a><a name="p1894418532279"></a>出方向</p>
         </td>
-        <td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.5.1.2 "><p id="p15947145313278"><a name="p15947145313278"></a><a name="p15947145313278"></a>TCP</p>
+        <td class="cellrowborder" valign="top" width="11.43%" headers="mcps1.2.5.1.2 "><p id="p15947145313278"><a name="p15947145313278"></a><a name="p15947145313278"></a>TCP</p>
         </td>
-        <td class="cellrowborder" valign="top" width="9%" headers="mcps1.2.5.1.3 "><p id="p1194755318274"><a name="p1194755318274"></a><a name="p1194755318274"></a>443</p>
+        <td class="cellrowborder" valign="top" width="8.21%" headers="mcps1.2.5.1.3 "><p id="p1194755318274"><a name="p1194755318274"></a><a name="p1194755318274"></a>443</p>
         </td>
-        <td class="cellrowborder" valign="top" width="70%" headers="mcps1.2.5.1.4 "><p id="p2748650125812"><a name="p2748650125812"></a><a name="p2748650125812"></a>用于发指标数据、采集日志。云监控和云日志服务的开放接口是HTTPS请求。</p>
+        <td class="cellrowborder" valign="top" width="69.36%" headers="mcps1.2.5.1.4 "><p id="p2748650125812"><a name="p2748650125812"></a><a name="p2748650125812"></a>采集监控数据到云监控服务端。</p>
         </td>
         </tr>
         </tbody>

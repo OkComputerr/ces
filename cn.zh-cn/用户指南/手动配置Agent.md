@@ -24,10 +24,10 @@
 
         ```
         {
-            "InstanceId":"xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-            "ProjectId": "b5b92ee0xxxxxxxxxxxxxxxxcab92396",
-            "AccessKey": "QZ0XGJXFxxxxxxxxT65R",
-            "SecretKey": "lEv2aXAGwxxxxxxxxxxxxxxxxxxxxF8t0Bf18Tn2",
+            "InstanceId":"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+            "ProjectId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "AccessKey": "XXXXXXXXXXXXXXXXXXXX",
+            "SecretKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             "RegionId": "cn-north-1",
             "ClientPort": 0,
             "PortNum": 200
@@ -68,7 +68,7 @@
         </tr>
         <tr id="zh-cn_topic_0078544025_row3457869218403"><td class="cellrowborder" valign="top" width="16.99%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0078544025_p4941065418403"><a name="zh-cn_topic_0078544025_p4941065418403"></a><a name="zh-cn_topic_0078544025_p4941065418403"></a>RegionId</p>
         </td>
-        <td class="cellrowborder" valign="top" width="83.00999999999999%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0078544025_p4284005718403"><a name="zh-cn_topic_0078544025_p4284005718403"></a><a name="zh-cn_topic_0078544025_p4284005718403"></a>区域ID，例如：ECS或BMS资源所属区域为“华北-北京一”，则RegionID为“cn-north-1”，其他区域的RegionID详见<a href="https://developer.huaweicloud.com/endpoint.html" target="_blank" rel="noopener noreferrer">https://developer.huaweicloud.com/endpoint.html</a>。</p>
+        <td class="cellrowborder" valign="top" width="83.00999999999999%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0078544025_p4284005718403"><a name="zh-cn_topic_0078544025_p4284005718403"></a><a name="zh-cn_topic_0078544025_p4284005718403"></a>区域ID，例如：ECS或BMS资源所属区域为“华北-北京一”，则RegionID为“cn-north-1”，其他区域的RegionID详见<a href="https://developer.huaweicloud.com/endpoint" target="_blank" rel="noopener noreferrer">https://developer.huaweicloud.com/endpoint</a>。</p>
         </td>
         </tr>
         <tr id="row1827144335718"><td class="cellrowborder" valign="top" width="16.99%" headers="mcps1.2.3.1.1 "><p id="p152711443145714"><a name="p152711443145714"></a><a name="p152711443145714"></a>ClientPort</p>
@@ -113,7 +113,7 @@
         </thead>
         <tbody><tr id="zh-cn_topic_0078544025_row64780686191717"><td class="cellrowborder" valign="top" width="21.86%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0078544025_p12744227191717"><a name="zh-cn_topic_0078544025_p12744227191717"></a><a name="zh-cn_topic_0078544025_p12744227191717"></a><strong id="zh-cn_topic_0078544025_b47589181191717"><a name="zh-cn_topic_0078544025_b47589181191717"></a><a name="zh-cn_topic_0078544025_b47589181191717"></a>Endpoint</strong></p>
         </td>
-        <td class="cellrowborder" valign="top" width="78.14%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0078544025_p29518480191717"><a name="zh-cn_topic_0078544025_p29518480191717"></a><a name="zh-cn_topic_0078544025_p29518480191717"></a>ECS或BMS资源所属区域的云监控Endpoint URL，例如：ECS或BMS资源所属区域为“华北-北京一”，则URL中使用“ces.cn-north-1.myhuaweicloud.com”，其他区域的Endpoint取值详见<a href="https://developer.huaweicloud.com/endpoint.html" target="_blank" rel="noopener noreferrer">https://developer.huaweicloud.com/endpoint.html</a>。</p>
+        <td class="cellrowborder" valign="top" width="78.14%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0078544025_p29518480191717"><a name="zh-cn_topic_0078544025_p29518480191717"></a><a name="zh-cn_topic_0078544025_p29518480191717"></a>ECS或BMS资源所属区域的云监控Endpoint URL，例如：ECS或BMS资源所属区域为“华北-北京一”，则URL中使用“ces.cn-north-1.myhuaweicloud.com”，其他区域的Endpoint取值详见<a href="https://developer.huaweicloud.com/endpoint" target="_blank" rel="noopener noreferrer">https://developer.huaweicloud.com/endpoint</a>。</p>
         </td>
         </tr>
         </tbody>
