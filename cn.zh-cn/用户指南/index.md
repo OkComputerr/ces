@@ -27,6 +27,7 @@
 -   [主机监控]
     -   [主机监控简介](主机监控简介.md)
     -   [Agent版本特性](Agent版本特性.md)
+    -   [安装配置Agent场景说明](安装配置Agent场景说明.md)
     -   [购买ECS时安装Agent（仅支持Linux）](购买ECS时安装Agent（仅支持Linux）.md)
     -   [在ECS/BMS中安装配置Agent（Linux）]
         -   [修改DNS与添加安全组](修改DNS与添加安全组.md)
