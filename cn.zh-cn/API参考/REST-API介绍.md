@@ -184,7 +184,7 @@ HTTP方法（也称为操作或动词），它告诉服务你正在请求什么�
 <tr id="zh-cn_topic_0121682347_row188688113337"><td class="cellrowborder" valign="top" width="19.74%" headers="mcps1.2.5.1.1 "><p id="zh-cn_topic_0121682347_p198684111335"><a name="zh-cn_topic_0121682347_p198684111335"></a><a name="zh-cn_topic_0121682347_p198684111335"></a>X-Auth-Token</p>
 </td>
 <td class="cellrowborder" valign="top" width="26.490000000000002%" headers="mcps1.2.5.1.2 "><p id="zh-cn_topic_0121682347_p1086851153317"><a name="zh-cn_topic_0121682347_p1086851153317"></a><a name="zh-cn_topic_0121682347_p1086851153317"></a>用户Token。</p>
-<p id="zh-cn_topic_0121682347_p15868417337"><a name="zh-cn_topic_0121682347_p15868417337"></a><a name="zh-cn_topic_0121682347_p15868417337"></a>获取Token，请参考《统一身份认证服务API参考》的“获取用户Token”章节。请求响应成功后在响应消息头中包含的“X-Subject-Token”的值即为Token值。</p>
+<p id="zh-cn_topic_0121682347_p15868417337"><a name="zh-cn_topic_0121682347_p15868417337"></a><a name="zh-cn_topic_0121682347_p15868417337"></a>获取Token，请参考《统一身份认证服务API参考》的“<a href="https://support.huaweicloud.com/api-iam/zh-cn_topic_0057845583.html" target="_blank" rel="noopener noreferrer">获取用户Token</a>”章节。请求响应成功后在响应消息头中包含的“X-Subject-Token”的值即为Token值。</p>
 </td>
 <td class="cellrowborder" valign="top" width="20.119999999999997%" headers="mcps1.2.5.1.3 "><p id="zh-cn_topic_0121682347_p4868514338"><a name="zh-cn_topic_0121682347_p4868514338"></a><a name="zh-cn_topic_0121682347_p4868514338"></a>否</p>
 <p id="zh-cn_topic_0121682347_p986818114339"><a name="zh-cn_topic_0121682347_p986818114339"></a><a name="zh-cn_topic_0121682347_p986818114339"></a>使用Token认证时该字段必选。</p>
