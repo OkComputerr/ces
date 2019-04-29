@@ -2,7 +2,7 @@
 
 ## 操作场景<a name="section16321812105715"></a>
 
-本章节指导用户安装指标采集插件，用于采集GPU类指标和BMS RAID类指标。
+本章节指导用户安装指标采集插件，用于采集ECS GPU类指标和BMS RAID类指标。
 
 >![](public_sys-resources/icon-note.gif) **说明：**   
 >-   ECS支持GPU类指标，BMS暂不支持。  
@@ -36,7 +36,7 @@
 
 5.  执行如下命令，下载采集插件脚本（以下以GPU插件为例）。
 
-    **wget  **https://telescope.obs.cn-north-1.myhuaweicloud.com/gpu\_collector****
+    **wget  **_https://telescope.obs.cn-north-1.myhuaweicloud.com/gpu\_collector_****
 
     **表 1**  获取插件采集安装包
 

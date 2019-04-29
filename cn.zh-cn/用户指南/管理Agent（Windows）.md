@@ -16,3 +16,6 @@
 
 在Agent安装包存放目录下，双击执行uninstall.bat脚本，卸载Agent。
 
+>![](public_sys-resources/icon-notice.gif) **注意：**   
+>重新安装Agent前，请手动清理之前的Agent安装包。  
+

@@ -1,10 +1,10 @@
 # Agent版本特性<a name="ZH-CN_TOPIC_0093329909"></a>
 
-云监控提供的Agent不同版本支持的监控指标或功能有所不同。各版特性列表如下所示：
+云监控提供的Agent不同版本支持的监控指标或功能有所不同。Agent默认开启自动升级，当Agent更新后便会自动升级，让您第一时间体验到新功能，各版本特性列表如下所示：
 
 ## 1.1.2版本<a name="section185865455177"></a>
 
-优化Agent性能，当Agent不上报数据时可参考[Agent不上报数据时该如何处理？](https://support.huaweicloud.com/ces_faq/ces_faq_0041.html)手动处理。
+优化Agent性能，当Agent不上报数据时可参考[开启LTS功能时，Agent状态时好时坏该如何处理？](https://support.huaweicloud.com/ces_faq/ces_faq_0041.html)手动处理。
 
 ## 1.0.14版本<a name="section96571945163812"></a>
 

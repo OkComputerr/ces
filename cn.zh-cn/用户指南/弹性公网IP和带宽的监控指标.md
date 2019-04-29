@@ -65,7 +65,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="35%" headers="mcps1.2.6.1.2 "><p id="p16891257145911"><a name="p16891257145911"></a><a name="p16891257145911"></a>该指标用于统计测量对象出云平台的带宽使用率，以百分比为单位。</p>
 </td>
-<td class="cellrowborder" valign="top" width="15%" headers="mcps1.2.6.1.3 "><p id="p14892155717598"><a name="p14892155717598"></a><a name="p14892155717598"></a>1-100%</p>
+<td class="cellrowborder" valign="top" width="15%" headers="mcps1.2.6.1.3 "><p id="p14892155717598"><a name="p14892155717598"></a><a name="p14892155717598"></a>0-100%</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.6.1.4 "><p id="p17893125714598"><a name="p17893125714598"></a><a name="p17893125714598"></a>带宽或弹性公网IP。</p>
 </td>
