@@ -39,7 +39,7 @@
 
 ## 卸载Agent<a name="zh-cn_topic_0078544026_section15609921194423"></a>
 
-用户可手动卸载Agent插件，卸载后云监控将不再主动采集ESC或BMS秒级粒度的监控数据。如需再次使用，请参考[在ECS/BMS中安装配置Agent（Linux）](在ECS-BMS中安装配置Agent（Linux）.md)或[在ECS/BMS中安装配置Agent（Windows）](在ECS-BMS中安装配置Agent（Windows）.md)重新安装。
+用户可手动卸载Agent插件，卸载后云监控将不再主动采集ESC或BMS秒级粒度的监控数据。如需再次使用，请参考[在ECS/BMS中安装配置Agent（Linux）](在ECS-BMS中安装配置Agent（Linux）.md)重新安装。
 
 执行以下命令，即可卸载Agent。
 

@@ -1,5 +1,12 @@
 # 安装配置Agent<a name="ZH-CN_TOPIC_0110258146"></a>
 
+## 操作场景<a name="zh-cn_topic_0078544024_section10035481163223"></a>
+
+本章节主要介绍如何在ECS中安装Agent，为用户提供主机的系统级、主动式、细颗粒度的监控服务。
+
+>![](public_sys-resources/icon-note.gif) **说明：**   
+>Windows类型BMS暂不支持安装Agent。  
+
 ## 前提条件<a name="section843453701616"></a>
 
 -   已配置DNS与安全组，配置DNS与安全组请参见[修改DNS与添加安全组](修改DNS与添加安全组-1.md)。
@@ -50,10 +57,12 @@
 
 5.  安装完成后，您可以选择进入主机监控界面，勾选需要配置插件的主机，单击"修复插件配置"，在弹出页面上，单击"一键修复"，完成配置Agent。
 
-    **图 2**  修复插件配置<a name="fig62115119195"></a>  
+    当插件状态为“运行中”并且监控状态开启时，说明Agent已安装成功并开始采集细粒度监控指标。
+
+    **图 2**  修复插件配置<a name="fig12572155014310"></a>  
     ![](figures/修复插件配置-1.png "修复插件配置-1")
 
-    如需手动配置Agent。打开telescope\_windows\_amd64\\bin文件夹下的conf.json文件，配置Agent具体参数，参数说明请参见[表1](手动配置Agent.md#zh-cn_topic_0078544025_table6225399118403)。然后双击执行install.bat脚本。
+    如需手动配置Agent。打开telescope\_windows\_amd64\\bin文件夹下的conf.json文件，配置Agent具体参数，参数说明请参见[表1](手动配置Agent.md#table98030118576)。然后双击执行install.bat脚本。
 
     ```
     {

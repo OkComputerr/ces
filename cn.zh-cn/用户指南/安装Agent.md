@@ -57,3 +57,8 @@
 
 3.  安装完成后，请参考[修复插件配置](修复插件配置.md)或[手动配置Agent](手动配置Agent.md)完成Agent的配置。
 
+    >![](public_sys-resources/icon-note.gif) **说明：**   
+    >-   [修复插件配置](修复插件配置.md)为用户提供了一键配置**AK/SK、RegionID、ProjectId**的功能，省去了繁琐的手动配置步骤，提升配置效率。也可以参考[手动配置Agent](手动配置Agent.md)自己修改相关配置文件。  
+    >-   BMS不支持修复插件配置，请参考[手动配置Agent](手动配置Agent.md)修改相关配置文件。  
+
+
