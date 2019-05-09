@@ -2,7 +2,7 @@
 
 ## 操作场景<a name="zh-cn_topic_0078544024_section10035481163223"></a>
 
-本章节指导用户为Linux系统的ECS或BMS主机添加域名解析并添加安全组，防止下载Agent安装包与采集监控数据时出现异常。
+本章节指导用户为Windows系统的ECS主机添加域名解析并添加安全组，防止下载Agent安装包与采集监控数据时出现异常。
 
 >![](public_sys-resources/icon-note.gif) **说明：**   
 >添加DNS服务解析和配置安全组针对的是主网卡。  
